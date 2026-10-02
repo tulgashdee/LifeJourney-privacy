@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LifeJourney · Privacy policy</title>
+<link rel="icon" href="favicon.png">
+<meta name="description" content="What LifeJourney reads on your phone, what it keeps, what goes over the internet, and how to delete it.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --ink: #1f2433;
+    --muted: #6b7080;
+    --accent: #c4501c;
+    --card: rgba(255, 255, 255, 0.78);
+    --line: rgba(31, 36, 51, 0.12);
+    --bg: linear-gradient(160deg, #fbf7ef 0%, #f4efe4 45%, #cfe2ea 100%);
+    --bg-plain: #fbf7ef;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e8eaf2;
+      --muted: #a3a9bb;
+      --accent: #f59e66;
+      --card: rgba(30, 38, 66, 0.72);
+      --line: rgba(232, 234, 242, 0.14);
+      --bg: linear-gradient(160deg, #26325e 0%, #18213f 50%, #0f172a 100%);
+      --bg-plain: #0f172a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    color: var(--ink);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg-plain);
+    background: var(--bg) fixed;
+    overflow-wrap: break-word;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+  .logo { width: 64px; height: 64px; flex: none; border-radius: 16px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0; }
+  h1 span { display: block; font-size: 20px; font-weight: 500; color: var(--muted); }
+  .updated { color: var(--muted); margin: 4px 0 24px; }
+  nav { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+  nav a { color: var(--accent); font-weight: 600; }
+  section {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 20px; padding: 8px 24px 16px; margin-top: 24px;
+  }
+  @media (max-width: 480px) {
+    main { padding-top: 24px; }
+    section { padding: 4px 16px 12px; }
+    h1 { font-size: 26px; }
+  }
+  h2 { font-size: 22px; line-height: 1.3; margin: 24px 0 4px; scroll-margin-top: 16px; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  strong { font-weight: 650; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="logo" src="icon.png" alt="" width="64" height="64">
+    <h1>LifeJourney <span>Privacy policy</span></h1>
+  </header>
+  <p class="updated">Effective date: 2 October 2026</p>
+  <nav><a href="#reads">What it reads</a><a href="#internet">What goes online</a><a href="#delete">Delete your data</a><a href="#contact">Contact</a></nav>
+
+  <section>
+    <p>LifeJourney is an Android app that shows where your photos and videos were taken on a map, and works out your trips from them. It is made by an independent developer. This policy explains, in plain words, what the app reads, what it keeps, what goes over the internet, and how to delete it.</p>
+
+    <h2>In short</h2>
+    <ul>
+      <li><strong>Your photos, your videos and the places they were taken never leave your phone.</strong></li>
+      <li>There is no account, no ads, no analytics, no crash reporting and no tracking. The developer receives nothing from the app.</li>
+      <li>The only thing the app downloads is the detailed map, from OpenFreeMap. You can switch that off (Map, then Online map).</li>
+    </ul>
+
+    <h2 id="reads">What the app reads on your phone</h2>
+    <ul>
+      <li><strong>Your photos and videos</strong>, with Android's "Photos and videos" permission (or only the ones you pick, if you allow limited access). For each one it reads when it was taken, its size, and for a video its length.</li>
+      <li><strong>Where each photo and video was taken</strong>, with Android's "photo locations" permission. Android hides this from apps that don't have the permission. LifeJourney uses it only to put your photos on the map and work out your trips.</li>
+      <li><strong>A few phone settings</strong> that decide whether new photos get a place: whether the phone's location is on, which app is your camera and whether it may use location, and whether your camera's newest photos (up to three from the last 30 days) have a place. This is only used to show you why new photos might be missing their place.</li>
+    </ul>
+    <p>LifeJourney never asks where your phone is: it has no location permission. Everything above is read and used only on your phone.</p>
+
+    <h2>What the app keeps on your phone</h2>
+    <ul>
+      <li><strong>An index of your gallery</strong> (a small database): for each photo and video its number in the gallery, its time, size, place and time zone, and any place you gave a photo yourself with "Put on map". Your photos and videos themselves are not copied.</li>
+      <li><strong>Your settings</strong>: what is switched on, where the map was last looking, what was in focus, and how your last story picture looked.</li>
+      <li><strong>Pieces of the map</strong> you have looked at, for up to a year, so they keep working offline.</li>
+      <li><strong>Story pictures and replay videos</strong> you make are saved in your gallery (Pictures › LifeJourney and Movies › LifeJourney), where they stay like any other picture or video.</li>
+    </ul>
+    <p>This stays in the app's private storage on your phone and is not included in Google's cloud backup of your phone.</p>
+
+    <h2 id="internet">What goes over the internet</h2>
+    <p>Only pieces of the map ("tiles"), and only while the online map is on. To show the street map, the app asks <strong>OpenFreeMap</strong> (tiles.openfreemap.org) for the pieces of the map on the screen and, before a replay, for the pieces along the replay's route. Each request says which piece of the map is needed (an area and a zoom level) and names the app ("LifeJourney"). Like every internet connection it also carries your phone's <strong>IP address</strong>. It contains no photos, no account, no device identifier and nothing else about you, and it is encrypted (HTTPS).</p>
+    <p>Because the pieces asked for are the places shown on your screen, the map service can see your IP address and which areas of the map are being looked at. OpenFreeMap says it does not log IP addresses (except for a short time to deal with an attack), uses no cookies or tracking, and may use Cloudflare to deliver the map: see <a href="https://openfreemap.org/privacy/">openfreemap.org/privacy</a>. With the online map switched off, LifeJourney uses only its built-in world map and the pieces already on your phone, and sends nothing.</p>
+    <p>If you tap "Turn on location", Android shows Google Play services' own dialog for switching on your phone's location. That dialog is part of Android, and Google's privacy policy applies to it. LifeJourney only learns whether location is now on.</p>
+
+    <h2>Sharing</h2>
+    <p>LifeJourney shares nothing by itself. Only when you choose to share a story picture or a replay video does it go, through Android's share menu, to the app and the people you pick. It shows what you put on it: your photos, place names, dates and the map. Before sharing you can leave out place names, the numbers and the places around your home.</p>
+
+    <h2>What the app does not do</h2>
+    <p>No account or sign-in, no ads, no advertising ID, no analytics, no crash reports, and no access to your contacts, microphone, camera or the phone's location. Nothing is sold or shared.</p>
+
+    <h2>Children</h2>
+    <p>LifeJourney is not directed at children under 13, and it collects no personal data from anyone, children included.</p>
+
+    <h2 id="delete">Keeping and deleting your data</h2>
+    <p>Everything LifeJourney keeps is on your phone, so you are in control:</p>
+    <ul>
+      <li>To delete it, open <em>Settings › Apps › LifeJourney › Storage</em> and tap <em>Clear storage</em>, or uninstall the app. Places you put on the map by hand are deleted too.</li>
+      <li>Story pictures and videos you saved stay in your gallery until you delete them there.</li>
+      <li>To stop the app seeing your photos or their places, change its permissions in <em>Settings › Apps › LifeJourney › Permissions</em>.</li>
+    </ul>
+    <p>The developer holds no data about you, so there is nothing for us to delete. If you have a question, write to us (below).</p>
+
+    <h2>Security</h2>
+    <p>What the app keeps stays in its private storage, protected by Android. Map requests are encrypted (HTTPS).</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version is posted on this page and the date at the top changes too.</p>
+
+    <h2 id="contact">Contact</h2>
+    <p>Questions about this policy or about LifeJourney: <a href="mailto:REPLACE-WITH-CONTACT-EMAIL">REPLACE-WITH-CONTACT-EMAIL</a></p>
+  </section>
+
+</main>
+</body>
+</html>
