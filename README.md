@@ -13,10 +13,9 @@ The app's code lives in `D:\Aaw\LifeJourney` (github.com/tulgashdee/LifeJourney)
 
 The GitHub repository `tulgashdee/LifeJourney-privacy` exists and this folder is its clone (`D:\Aaw\LifeJourney-privacy\LifeJourney-privacy`).
 
-1. Fill in the contact email: replace both `REPLACE-WITH-CONTACT-EMAIL` in `index.html` with the address people should write to (the same one as the Play listing), and commit.
-2. Push with GitHub Desktop (or `git push -u origin main`).
-3. On GitHub: the repository's **Settings → Pages → Build and deployment**: Source "Deploy from a branch", branch **main**, folder **/ (root)**, Save. The repository must be public (or Pages enabled for it).
-4. After a minute or two, open https://tulgashdee.github.io/LifeJourney-privacy/ on a phone and check it shows the policy.
+1. Push with GitHub Desktop (or `git push -u origin main`).
+2. On GitHub: the repository's **Settings → Pages → Build and deployment**: Source "Deploy from a branch", branch **main**, folder **/ (root)**, Save. The repository must be public (or Pages enabled for it).
+3. After a minute or two, open https://tulgashdee.github.io/LifeJourney-privacy/ on a phone and check it shows the policy.
 
 ## Changing it
 
